@@ -2,7 +2,7 @@
 
 To create a new toot create a new `*.toot` file in this `toots/` folder.
 
-<kbd>[Create new toot](../../../new/master/?filename=toots/<your-path>.toot)</kbd>
+<kbd>[Create new toot](../../../new/main/?filename=toots/<your-path>.toot)</kbd>
 
 ## Example
 
