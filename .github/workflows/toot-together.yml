@@ -1,0 +1,21 @@
+on: [push, pull_request]
+name: Toot, together!
+jobs:
+  preview:
+    name: Preview
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: joschi/toot-together@216c8d556d8092a1a023bddb1c682c14bbea6f64 # v1.0.3
+  toot:
+    name: Toot
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: checkout main
+        uses: actions/checkout@v2
+      - name: Toot
+        uses: joschi/toot-together@216c8d556d8092a1a023bddb1c682c14bbea6f64 # v1.0.3
+        env:
+          MASTODON_URL: ${{ secrets.MASTODON_URL }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
