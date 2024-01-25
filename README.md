@@ -7,5 +7,4 @@
 | YouTube | View our [playlist](https://youtube.com/playlist?list=PLLjvkjPNmuZkqtDoGuV-8SkZw6dwmHxF5) of recorded community meetings |
 | Slack       | `#apko` channel on [Kubernetes Slack](https://slack.kubernetes.io)  |
 | Forum       | See [GitHub Discussions](https://github.com/orgs/wolfi-dev/discussions) |
-| Fediverse   | [`@wolfi`](https://hachyderm.io/@wolfi) on Hachyderm (crossposting from `toots/` directory)  |
 | Twitter     | [`@wolfi_os`](https://twitter.com/wolfi_os) (crossposting from Hachyderm)   |

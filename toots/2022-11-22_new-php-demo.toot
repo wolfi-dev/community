@@ -1,3 +1,0 @@
-We have a new PHP demo that includes building apks for PHP, Composer, and a demo app 🎉 
-
-This repository demonstrates how to create a Wolfi-PHP container image running a command-line PHP application: https://github.com/chainguard-dev/hello-wolfi-demo
