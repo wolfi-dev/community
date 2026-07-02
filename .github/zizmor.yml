@@ -1,4 +1,7 @@
 rules:
+  dependabot-cooldown:
+    config:
+      days: 3
   # Cosmetic pedantic-only findings — suppressed per the campaign
   # zizmor-config recipe. concurrency-limits fired against this repo's
   # Action Lint workflow (docs.zizmor.sh/audits/#concurrency-limits);
