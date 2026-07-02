@@ -1,0 +1,9 @@
+rules:
+  # Cosmetic pedantic-only findings — suppressed per the campaign
+  # zizmor-config recipe. concurrency-limits fired against this repo's
+  # Action Lint workflow (docs.zizmor.sh/audits/#concurrency-limits);
+  # anonymous-definition is disabled as a standing campaign convention.
+  anonymous-definition:
+    disable: true
+  concurrency-limits:
+    disable: true
